@@ -1,0 +1,97 @@
+body {
+  color: rgb(95, 92, 92);
+  width: 960px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+#images {
+  display: block;
+}
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: black;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin-bottom: 200px;
+}
+
+header div {
+  float: right;
+}
+
+header span:nth-child(7) {
+  margin-left: 10px;
+}
+
+#printicon {
+  display: inline-block;
+}
+
+.button {
+  margin-bottom: 300px;
+  background-color: chocolate;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+main span {
+  float: right;
+}
+#note {
+  margin-left: 30px;
+}
+#paragraph img {
+  width: 960px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+main p {
+  text-indent: 15px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+#menu {
+  margin-top: 20px;
+  width: 960px;
+  float: center;
+}
+
+main ul {
+  column-count: 2;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+  text-indent: 20px;
+  font-size: 1em;
+  font-family: sans-serif;
+  line-height: 1px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+.venssa {
+  margin-top: 25em;
+}
+#paper {
+  position: absolute;
+  z-index: -1;
+}
