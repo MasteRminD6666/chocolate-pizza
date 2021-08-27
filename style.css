@@ -8,14 +8,21 @@ body {
   display: block;
 }
 h1 {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
   color: black;
+}
+.footer-items{
+  text-align: center;
 }
 
 li {
   display: inline;
   float: right;
+  padding-left: 200px;
+  margin-top: 10px;
+  
+  
 }
 ul {
   list-style-type: none;
@@ -37,7 +44,10 @@ header span:nth-child(7) {
 #printicon {
   display: inline-block;
 }
+h2{
+  font-size: 20px;
 
+}
 .button {
   margin-bottom: 300px;
   background-color: chocolate;
@@ -53,12 +63,10 @@ header span:nth-child(7) {
 main span {
   float: right;
 }
-#note {
-  margin-left: 30px;
-}
+
 #paragraph img {
   width: 960px;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-bottom: 10px;
 }
 
@@ -69,7 +77,7 @@ main p {
 }
 
 #menu {
-  margin-top: 20px;
+  margin-top: 40px;
   width: 960px;
   float: center;
 }
@@ -94,4 +102,6 @@ main ul {
 #paper {
   position: absolute;
   z-index: -1;
+  width: 60%;
+  height: 40%;
 }
